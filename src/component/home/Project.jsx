@@ -8,12 +8,12 @@ function Project() {
     <div className='flex flex-col justify-center items-center'>
         <p className='text-2xl font-bold py-5 tracking-widest'>Projects</p>
         <div>
-        <p>check out my project code and documentation on GitHub <a href="https://github.com/graciar"className='underline hover:text-red-400'>here</a>.</p>
+        <p>check out my project code and documentation on <a href="https://github.com/graciar"className='underline hover:text-red-400'>GitHub</a>.</p>
         </div>
         <div className='w-full flex py-7'>
             <ProjectItem
                 title="Inventory Management System"
-                desc="A simple web app CRUD to manage stock, products, and suppliers."
+                desc="A simple web app CRUD to manage stock and products."
                 tech="PHP, MySQL, Bootstrap"
                 link="https://github.com/graciar/CRUD"
             />
