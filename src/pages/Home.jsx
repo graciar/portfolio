@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
         <div className='flex justify-center items-center'>
-            <div className='w-6/12 px-3'>
+            <div className='lg:w-6/12 w-9/12 px-3'>
             <Hello/>
             <About/>
             <Skills/>

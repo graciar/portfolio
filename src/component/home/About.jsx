@@ -6,7 +6,7 @@ function About() {
     <div className='flex items-center '>
         <div className='flex flex-col items-center'>
 
-            <div className="text-lg text-justify tracking-wide leading-relaxed rounded-xl">
+            <div className="text-base lg:text-lg text-justify tracking-wide leading-relaxed rounded-xl">
                 <p className=''>
                     I'm a student currently pursuing a degree in Informatics at President University, I’m actively learning and building projects focusing on the back-end.
                     My journey into development started through university projects, where I started using tools like HTML, CSS, JavaScript, and frameworks such as React and Tailwind CSS. 

@@ -3,7 +3,7 @@ import React from 'react'
 function ProjectItem({title, desc, tech, link}) {
   return (
     <>
-    <div className=' w-6/12 mx-2 p-5 justify-center shadow-lg hover:scale-[1.02] transition-transform duration-300 cursor-pointer'>
+    <div className='w-9/12 lg:w-6/12 mx-2 p-5 justify-center shadow-lg hover:scale-[1.02] transition-transform duration-300 cursor-pointer'>
         <p className='text-lg font-semibold '>{title}</p>
         <p>{desc}</p><br />
         <p><strong>Tech:</strong> {tech}</p>
